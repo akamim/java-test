@@ -6,12 +6,12 @@ public class Ovning5_1 {
     // 1. Räknar från 1 till 10
 
         for (int i = 0; i < 10; i++){
-            //System.out.println(i+1);
+            System.out.println(i+1);
         }
         // 2. Räknar från 10 till 1
 
         for (int i = 10; i > 0; i--){
-            //System.out.println(i);
+            System.out.println(i);
         }
 
         // 3. Räknar alla jämna tal från 2 till 20

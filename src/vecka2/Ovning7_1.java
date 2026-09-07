@@ -42,8 +42,8 @@ public class Ovning7_1 {
     }
     public  static double  averageOfNum(int[] array){
         double sum = 0;
-        for (int i = 0; i < array.length; i++){
-            sum = sum + array[i];
+        for (int j : array) {
+            sum = sum + j;
         }
         return sum/ array.length;
     }
