@@ -1,6 +1,8 @@
+package vecka1;
+
 import java.util.Scanner;
 
-public class Main {
+public class Ovningar1_1till2_3 {
     public static void main(String[] args) {
         //Första programmet
         System.out.println("Mitt namn är Akam");
@@ -61,6 +63,7 @@ public class Main {
         // 2. Frågar hur gammal de är
         System.out.println("Hur gammal är du?");
         int userAge = myObj.nextInt();
+        myObj.nextLine();
 
         // 3. Frågar var de bor
         System.out.println("Var bor du?");
@@ -103,5 +106,7 @@ public class Main {
         double priceInUSD = priceInSEK * 0.091;
         // 4. Skriver ut alla belopp snyggt formaterat
         System.out.println("Beloppet i EUR: " + priceInEUR + " och i USD: " + priceInUSD + ".");
+
+
     }
 }
