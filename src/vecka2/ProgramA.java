@@ -1,4 +1,4 @@
-package vecka3;
+package vecka2;
 
 import java.util.Scanner;
 import java.util.stream.IntStream;
