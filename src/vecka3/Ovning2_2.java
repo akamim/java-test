@@ -19,7 +19,6 @@ public class Ovning2_2 {
             System.out.println("Välj ett alternativ: ");
             menu();
             userChoice = sc.nextInt();
-            sc.nextLine();
             switch (userChoice){
                 case 1 -> {
                     System.out.println("Vad är cirkelns radie?");
@@ -40,6 +39,7 @@ public class Ovning2_2 {
                     double height = sc.nextDouble();
                     System.out.println("Triangelns area = " + calculateTriangleArea(base, height));
                 }
+                default -> System.out.println("Ogiltgit val. Välj 1-4.");
             }
         }
 
@@ -51,7 +51,7 @@ public class Ovning2_2 {
         System.out.println("4. Avsluta programmet");
     }
     public static double calculateCircleArea(double radius){
-        return 3.1416 * radius * radius;
+        return Math.PI * radius * radius;
     }
 
     public static double calculateRectangleArea(double length, double width){
